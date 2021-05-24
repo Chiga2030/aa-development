@@ -1,10 +1,15 @@
-import styles from './LeftScreen.module.css';
+import Title from '../Title/Title';
 
-const title = (<h2>Проекты:</h2>);
+import styles from './LeftScreen.module.css';
 
 const LeftScreen = () => (
   <div className={styles.leftScreen}>
-  {title}
+    <div className = {styles.leftScreenInner}>
+      <Title
+        value = {'Проекты:'}
+        extraClassName = {'toRigth'}
+      />
+    </div>
   </div>
 )
 
