@@ -1,0 +1,13 @@
+.linkList {
+  list-style-type: none;
+  padding-inline-start: 0;
+  /*margin-bottom: 2.5vw;*/
+}
+
+.listItem {
+  margin-bottom: 1vw;
+}
+
+.link{
+  color: #000000;
+}

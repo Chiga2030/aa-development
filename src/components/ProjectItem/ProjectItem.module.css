@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 1.9vw;
+  background: url(./img/border.svg) no-repeat;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.subtitle {
+  margin: .9vw 0 2.5vw 0;
+}
+
+.linkList {
+  margin-bottom: 2.5vw;
+}
+
+.button {
+  margin-bottom: 5.8vw;
+}

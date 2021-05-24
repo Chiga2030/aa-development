@@ -1,0 +1,17 @@
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  border: hidden;
+  border-radius: 4px;
+  background: #F2D07D;
+  color: #2B111E;
+  width: 16.4vw;
+  height: 3.6vw;
+  font-size: 1.1em;
+  font-weight: 700;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
