@@ -1,5 +1,18 @@
 .wrapper {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   width: 100%;
+}
+
+.marginBottom {
+  margin-bottom: 0.6vw;
+}
+
+.mouse {
+  width: 2.2vw;
+}
+
+.smallText {
+  font-size: 0.75em;
 }

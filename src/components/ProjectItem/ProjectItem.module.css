@@ -1,7 +1,7 @@
 .wrapper {
-  padding: 1.9vw;
   background: url(./img/border.svg) no-repeat;
   box-sizing: border-box;
+  padding: 1.9vw;
 }
 
 .title {
@@ -15,9 +15,9 @@
 }
 
 .linkList {
-  margin-bottom: 2.5vw;
+  margin-bottom: 2.4vw;
 }
 
 .button {
-  margin-bottom: 5.8vw;
+  margin-bottom: 5.9vw;
 }
