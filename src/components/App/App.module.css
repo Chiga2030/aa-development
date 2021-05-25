@@ -9,8 +9,8 @@ body {
     font-style: normal;
     font-weight: 400;
     src: url('./fonts/montserrat-400-normal.woff2') format('woff2'),
-    url('./fonts/montserrat-400-normal.ttf') format('truetype');
-    url('./fonts/montserrat-400-normal.woff') format('woff'),
+    url('./fonts/montserrat-400-normal.ttf') format('truetype'),
+    url('./fonts/montserrat-400-normal.woff') format('woff');
 }
 
 @font-face {
@@ -18,6 +18,6 @@ body {
     font-style: normal;
     font-weight: 700;
     src: url('./fonts/montserrat-700-normal.woff2') format('woff2'),
-    url('./fonts/montserrat-700-normal.ttf') format('truetype');
-    url('./fonts/montserrat-700-normal.woff') format('woff'),
+    url('./fonts/montserrat-700-normal.ttf') format('truetype'),
+    url('./fonts/montserrat-700-normal.woff') format('woff');
 }
