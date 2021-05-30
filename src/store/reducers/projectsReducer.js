@@ -25,7 +25,10 @@ const initialState = {
       id: 2,
     },
     {
-      value: 'Сдать задание на проверку',
+      value: 'Верстка сайта',
+      description: 'Одностраничный сайт-портфолио.',
+      repoLink: 'https://github.com/Chiga2030/taa-dev.pro',
+      link: 'https://taa-dev.pro/',
       id: 3,
     },
   ],

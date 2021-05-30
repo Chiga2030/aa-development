@@ -1,9 +1,9 @@
 import styles from './SplitScreen.module.css';
-import LeftScreen from '../LeftScreen/LeftScreen';
+import LeftScreenContainer from '../LeftScreen/LeftScreenContainer';
 
 const SplitScreen = () => (
   <div className={styles.splitScreen}>
-    <LeftScreen />
+    <LeftScreenContainer />
     <div className={styles.rightScreen}></div>
   </div>
 );

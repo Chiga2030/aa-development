@@ -1,6 +1,5 @@
 import Button from '../Button/Button';
 import LinkList from '../LinkList/LinkList';
-import UseScroll from '../UseScroll/UseScroll';
 
 import styles from './ProjectItem.module.css';
 
@@ -15,8 +14,6 @@ const ProjectItem = () => (
       className={styles.button}
       value="Подробнее"
     />
-
-    <UseScroll />
   </div>
 );
 
