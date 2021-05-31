@@ -6,6 +6,6 @@ const App = () => (
   <div>
     <SplitScreen />
   </div>
-  );
+);
 
 export default App;

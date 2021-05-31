@@ -5,7 +5,7 @@ import UseScroll from '../UseScroll/UseScroll';
 import styles from './LeftScreen.module.css';
 
 const LeftScreen = props => {
-  console.log(props.projects)
+  console.log(props.projects.items);
   return (
     <div className={styles.leftScreen}>
       <div className = {styles.leftScreenInner}>
@@ -14,10 +14,10 @@ const LeftScreen = props => {
           extraClassName = {'toCenter'}
         />
         <ProjectItem />
-        <UseScroll />
+        <UseScroll amountBullest = { props.projects.items } />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default LeftScreen;

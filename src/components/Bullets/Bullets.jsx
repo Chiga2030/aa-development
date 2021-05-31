@@ -1,15 +1,23 @@
-import classNames from 'classnames';
+// import classNames from 'classnames';
 
 import styles from './Bullets.module.css';
 
-const Bullets = () => (
-  <div className={styles.bulletsWrapper}>
-    <span className={classNames(styles.bullet, styles.active)}></span>
-    <span className={styles.bullet}></span>
-    <span className={styles.bullet}></span>
-    <span className={styles.bullet}></span>
-    <span className={styles.bullet}></span>
-  </div>
-);
+const Bullets = props => {
+  console.log(props.amountBullest);
+
+  return (
+    <div className={styles.bulletsWrapper}>
+      { props.amountBullest.map(
+        item => (
+          <span
+            key={ item.id.toString() }
+            className={ styles.bullet }
+          />
+        )
+      ) }
+    </div>
+  );
+};
+
 
 export default Bullets;
