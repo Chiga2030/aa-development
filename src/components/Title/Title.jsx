@@ -1,9 +1,24 @@
 import styles from './Title.module.css';
 
-const Title = props => (
-  <h2 className = {`${styles.title} ${styles[props.extraClassName]}`}>
-    {props.value}
-  </h2>
-);
+import classNames from 'classnames';
+
+const Title = props => {
+  const style = classNames(
+    styles.title,
+    styles[props.extraClassName],
+  );
+
+  const value = () => {
+    if (props.value) {
+      return props.value;
+    } return 'title';
+  };
+
+  return (
+    <h2 className = { style }>
+      { value() }
+    </h2>
+  );
+};
 
 export default Title;
