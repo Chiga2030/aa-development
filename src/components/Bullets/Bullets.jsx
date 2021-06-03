@@ -1,23 +1,19 @@
-// import classNames from 'classnames';
-
 import styles from './Bullets.module.css';
 
-const Bullets = props => {
-  console.log(props.amountBullest);
-
-  return (
-    <div className={styles.bulletsWrapper}>
-      { props.amountBullest.map(
+const Bullets = props => (
+  <div className={styles.bulletsWrapper}>
+    {
+      props.items.map(
         item => (
           <span
             key={ item.id.toString() }
             className={ styles.bullet }
           />
         )
-      ) }
-    </div>
-  );
-};
+      )
+    }
+  </div>
+);
 
 
 export default Bullets;

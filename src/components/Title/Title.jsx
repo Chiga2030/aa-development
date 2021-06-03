@@ -8,15 +8,12 @@ const Title = props => {
     styles[props.extraClassName],
   );
 
-  const value = () => {
-    if (props.value) {
-      return props.value;
-    } return 'title';
-  };
+  const value = props.value ? props.value : 'title';
+
 
   return (
     <h2 className = { style }>
-      { value() }
+      { value }
     </h2>
   );
 };

@@ -14,7 +14,7 @@ const LeftScreen = props => {
           extraClassName = {'toCenter'}
         />
         <ProjectItem />
-        <UseScroll amountBullest = { props.projects.items } />
+        <UseScroll />
       </div>
     </div>
   );
