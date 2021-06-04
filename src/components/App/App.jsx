@@ -1,11 +1,14 @@
 // eslint-disable-next-line
 import styles from './App.module.css';
-import SplitScreen from '../../components/SplitScreen/SplitScreen';
+import ProjectsPageContainer
+  from '../../components/ProjectsPage/ProjectsPageContainer';
+
 
 const App = () => (
-  <div>
-    <SplitScreen />
-  </div>
+  <fragment>
+    <ProjectsPageContainer />
+  </fragment>
 );
+
 
 export default App;

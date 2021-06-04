@@ -2,11 +2,11 @@ import {
   connect,
 } from 'react-redux';
 
-import LeftScreen from './LeftScreen';
+import ProjectsPage from './ProjectsPage';
 
 
-const LeftScreenContainer = props => (
-  <LeftScreen
+const ProjectsPageContainer = props => (
+  <ProjectsPage
     projects={ props.projects }
   />
 );
@@ -16,4 +16,4 @@ export default connect(
   state => ({
     projects: state.projectsReducer,
   }),
-)(LeftScreenContainer);
+)(ProjectsPageContainer);
