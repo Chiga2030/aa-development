@@ -3,10 +3,10 @@ import mouse from './img/mouse.svg';
 
 import classNames from 'classnames';
 
-import BulletsContainer from '../Bullets/BulletsContainer';
+import Bullets from '../Bullets/Bullets';
 
 
-const UseScroll = () => (
+const UseScroll = props => (
   <div className={styles.wrapper}>
     <img
       className={classNames(styles.mouse, styles.marginBottom)}
@@ -22,7 +22,9 @@ const UseScroll = () => (
     >
       use scroll
     </small>
-    <BulletsContainer />
+    <Bullets
+      items={ props.items }
+    />
   </div>
 );
 

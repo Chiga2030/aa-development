@@ -5,9 +5,9 @@ import ProjectsPageContainer
 
 
 const App = () => (
-  <fragment>
+  <>
     <ProjectsPageContainer />
-  </fragment>
+  </>
 );
 
 
