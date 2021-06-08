@@ -11,7 +11,7 @@ const ProjectItem = () => (
     <LinkList className={styles.linkList} />
 
     <Button
-      className={styles.button}
+      alignmentStyle={styles.childButtonAligment}
       value="Подробнее"
     />
   </div>

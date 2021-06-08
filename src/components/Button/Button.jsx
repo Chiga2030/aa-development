@@ -1,11 +1,17 @@
 import styles from './Button.module.css';
 
-const Button = props => (
-  <div className={`${styles.buttonWrapper} ${props.className}`}>
+const Button = ({
+  value,
+  alignmentStyle,
+}) => (
+  <div className={`
+    ${styles.buttonWrapper}
+    ${alignmentStyle ? alignmentStyle : ''}
+  `}>
     <input
       className={styles.button}
       type="button"
-      value={props.value}
+      value={value}
     />
   </div>
 );
