@@ -1,5 +1,6 @@
 html,
 body {
+  background: url(./img/background.jpg);
   font-family: montserrat;
   margin: 0;
 }
